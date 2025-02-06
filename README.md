@@ -35,6 +35,6 @@ Zermelo_Proof_AC.v -- Prove the Axiom of Choice through Zermelo_Postulate.  (* D
 
 Tukey_Proof_AC.v -- Prove the Axiom of Choice through Tukey_Lemma.  (* Depends on Tukey_Lemma.v *)
 # Authors
-This project is implemented by Wensheng Yuwsyu@bupt.edu.cn、Tianyu Sun、Yaoshun Fu、Sheng Yan、Si Chen、Ce Zhang.
+This project is implemented by Wensheng Yu wsyu@bupt.edu.cn、Tianyu Sun、Yaoshun Fu、Sheng Yan、Si Chen、Ce Zhang.
 # Relevant Papers & Books
 Yu, W., Sun, T., Fu, Y.: A Machine Proof System for Axiomatic Set Theory (in Chinese). Science Press, Beijing (2020)
