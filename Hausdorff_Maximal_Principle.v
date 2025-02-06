@@ -3,7 +3,8 @@
 (*             GNU Lesser General Public License version 3                 *)
 (*                (see file LICENSE for more details)                      *)
 (*                                                                         *)
-(*      Copyright 2018-2019: Tianyu Sun, Yaoshun Fu and Wensheng Yu.       *)
+(*            Copyright 2025-2030: Tianyu Sun, Yaoshun Fu,                 *)
+(*                Ce Zhang, Si Chen and Wensheng Yu.                       *)
 (***************************************************************************)
 
 
