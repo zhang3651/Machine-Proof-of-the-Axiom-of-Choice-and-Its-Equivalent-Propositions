@@ -15,25 +15,25 @@ MK_Theorems1.v  (* Depends on MK_Structure1.v *)
 
 The machine proof of the axiom of choice and its equivalent propositions itself includes the following 10 .v files:
 
-Basic_Definitions.v -- Basic definitions required for the proof (* Depends on MK_Theorems1.v *)
+Basic_Definitions.v -- Basic definitions required for the proof. (* Depends on MK_Theorems1.v *)
 
-Tukey_Lemma.v -- Prove Tukey_Lemma through the Axiom of Choice (* Depends on Basic_Definitions.v *)
+Tukey_Lemma.v -- Prove Tukey_Lemma through the Axiom of Choice. (* Depends on Basic_Definitions.v *)
 
-Hausdorff_Maximal_Principle.v  (* Depends on Tukey_Lemma.v *)
+Hausdorff_Maximal_Principle.v -- Prove Hausdorff_Maximal_Principle through Tukey_Lemma.  (* Depends on Tukey_Lemma.v *)
 
-Maximal_Principle.v  (* Depends on Hausdorff_Maximal_Principle.v *)
+Maximal_Principle.v -- Prove Maximal_Principle through Hausdorff_Maximal_Principle.  (* Depends on Hausdorff_Maximal_Principle.v *)
 
-Zorn_Lemma.v  (* Depends on Maximal_Principle.v *)
+Zorn_Lemma.v -- Prove Zorn_Lemma through Maximal_Principle.  (* Depends on Maximal_Principle.v *)
 
-Wellordering_Theorem.v  (* Depends on Zorn_Lemma.v *)
+Wellordering_Theorem.v -- Prove Wellordering_Theorem through Zorn_Lemma.  (* Depends on Zorn_Lemma.v *)
 
-WO_Proof_AC.v  (* Depends on Wellordering_Theorem.v *)
+WO_Proof_AC.v -- Prove the Axiom of Choice through Wellordering_Theorem.  (* Depends on Wellordering_Theorem.v *)
 
-Zermelo_Postulate.v  (* Depends on Maximal_Principle.v *)
+Zermelo_Postulate.v -- Prove Zermelo_Postulate through Maximal_Principle.  (* Depends on Maximal_Principle.v *)
 
-Zermelo_Proof_AC.v  (* Depends on Zermelo_Postulate.v *)
+Zermelo_Proof_AC.v -- Prove the Axiom of Choice through Zermelo_Postulate.  (* Depends on Zermelo_Postulate.v *)
 
-Tukey_Proof_AC.v  (* Depends on Tukey_Lemma.v *)
+Tukey_Proof_AC.v -- Prove the Axiom of Choice through Tukey_Lemma.  (* Depends on Tukey_Lemma.v *)
 # Authors
 This project is implemented by Wensheng Yuwsyu@bupt.edu.cn、Tianyu Sun、Yaoshun Fu、Sheng Yan、Si Chen、Ce Zhang.
 # Relevant Papers & Books
