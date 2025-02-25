@@ -189,8 +189,8 @@ Proof.
             - apply MKT168; apply finsin; unfold Ensemble; eauto. }
           apply H2 in H9; unfold En_f in H9; apply AxiomII in H9.
           destruct H9, H10, H10; unfold Choice_Function' in H11.
-          destruct H11, H12, H13; unfold Function in H12.
-          apply H12 with (x0:=x); unfold Unordered; apply AxiomII.
+          destruct H11, H12, H13; unfold Function in H12. 
+          destruct H12. apply (H15 x y z); unfold Unordered; apply AxiomII.
           + split; try left; unfold Ensemble; eauto; 
             unfold Singleton; apply AxiomII; unfold Ensemble; eauto.
           + split; try right; unfold Ensemble; eauto; 
@@ -363,9 +363,7 @@ Proof.
               apply MKT4; tauto.
             * unfold Singleton in H10; apply AxiomII in H19.
               New H10; apply MKT19 in H20; destruct H19.
-              apply H21 in H20.
-              
-              apply MKT49b in H10. destruct H10. 
+              apply H21 in H20. apply MKT49b in H10. destruct H10. 
               symmetry in H20. apply MKT55 in H20. destruct H20.
               unfold Element_U.
               apply AxiomII; split; auto; exists E; rewrite <- H23.
